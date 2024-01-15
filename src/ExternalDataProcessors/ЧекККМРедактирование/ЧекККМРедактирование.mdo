@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34021d52-388d-4572-ac67-32ddc5706ddb">
+  <producedTypes>
+    <objectType typeId="a5c5c25b-190e-472c-84e1-e316386242fc" valueTypeId="e317c22b-7fb7-4662-9baf-c8c454bd11c4"/>
+  </producedTypes>
+  <name>ЧекККМРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чек ККМРедактирование</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="f7c6949b-43df-41d1-b1c6-efbd19f6391c"/>
+  <defaultForm>ExternalDataProcessor.ЧекККМРедактирование.Form.Форма</defaultForm>
+  <attributes uuid="e624607e-a98d-45be-929c-4333a6a5b5ec">
+    <name>ЧекККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек ККМ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЧекККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="102ff9aa-30f8-4d60-b5ac-2e7247b2e83d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4611b2d1-429a-41c2-ba77-3ca638729fc8">
+    <name>ФормаМини</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма чека</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
